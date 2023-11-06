@@ -2,9 +2,11 @@
 A Chrome extension that creates a table of contents for a markdown file being viewed on GitHub.com.
 If there is enough interest, I will attempt to publish the extension to the Chrome Web Store. 
 ## Usage
-- Download the `.crx` file from this repository
+- Download the this repository as a zip file
+- Unzip the file to a desired location
 - Navigate to `chrome://extensions`
-- Drag and drop the `.crx` file into the page 
+- Toggle developer mode
+- Load the unpacked extension 
 - Navigate to your markdown file in GitHub
 - Make sure you are viewing the file in "Preview" mode
 - Copy the table of contents by clicking the "Copy" button
