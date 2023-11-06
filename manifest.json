@@ -1,0 +1,30 @@
+{ 
+    "manifest_version": 3, 
+    "name": "Table of Contents", 
+    "description": "Generates a table of contents for a GitHub markdown file.", 
+    "version": "0.0.0.3",  
+    "permissions": [
+        "activeTab",
+        "nativeMessaging",
+        "storage"
+      ],
+    "icons": {
+        "128": "icons/icon128.png"
+    },
+    "action": {
+        "default_popup": "popup/popup.html", 
+        "default_icon": "icons/icon128.png"
+    },
+    "content_scripts": [
+      {
+        "js": ["scripts/tableOfContents.js"], 
+        "run_at": "document_start", 
+        "matches": [
+            "https://github.com/*"
+        ]
+      }  
+    ],
+    "background": {
+        "service_worker": "scripts/background.js"
+    }
+}
