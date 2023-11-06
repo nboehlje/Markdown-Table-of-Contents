@@ -1,5 +1,5 @@
 # Markdown Table of Contents
-An Chrome extension that creates a table of contents for a markdown file being viewed on GitHub.com.
+A Chrome extension that creates a table of contents for a markdown file being viewed on GitHub.com.
 If there is enough interest, I will attempt to publish the extension on the Chrome Web Store. 
 ## Usage
 - Download the `.crx` file from this repository
